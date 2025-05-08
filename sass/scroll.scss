@@ -49,11 +49,10 @@
     box-sizing: border-box;
     padding: 0px;
     .foto {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 60%;
 
         @media screen and (max-width: 768px) {
-            width: 50%;
             width: 85%;
         }
         img {
