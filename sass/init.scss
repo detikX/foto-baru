@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Zain:wght@300;400;900&family=Bitter:wght@400;600&family=Rubik&family=Paytone+One&family=Source+Code+Pro:wght@400;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto&family=Poppins:wght@300;400;500;600;700;900&family=Mulish&display=swap");
+
+$colorred: #1b1b1b;
+main {
+    overflow-x: clip;
+    background: $colorred;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+    background: $colorred;
+    // font-family: 'Outfit';
+    // overflow-x: hidden;
+    // p {
+    //     color: #3a6a4d;
+    // }
+    font-family: "Jost" !important;
+    font-weight: 400;
+    color: white;
+    @media screen and (max-width: 768px) {
+        // overflow-x: hidden;
+    }
+    h1,
+    h2 {
+        font-family: "Jost";
+        color: #124646;
+        // font-weight: 700;
+        // font-family: "Jost", sans-serif !important;
+        font-weight: 700;
+        // font-family: "Jost" !important;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.wrap-detikx {
+    width: 780px;
+    margin: 0 auto;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
+}
